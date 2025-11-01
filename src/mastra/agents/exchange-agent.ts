@@ -39,7 +39,9 @@ export const exchangeAgent = new Agent({
     Query: "China currency" → { country: "China", baseCurrency: "USD" }
     Query: "Convert 100 GBP to Nigerian Naira" → { country: "Nigeria", baseCurrency: "GBP" }
   `,
-  model: 'openai/gpt-4o-mini',
+//   model: 'openai/gpt-3.5-turbo',
+//   model: 'openai/gpt-4o-mini',
+  model:'groq/llama-3.1-8b-instant',
   tools: {
     'get-exchange-rate': exchangeTool,
   },
