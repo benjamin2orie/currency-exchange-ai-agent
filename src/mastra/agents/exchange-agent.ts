@@ -41,7 +41,8 @@ export const exchangeAgent = new Agent({
   `,
 //   model: 'openai/gpt-3.5-turbo',
 //   model: 'openai/gpt-4o-mini',
-  model:'groq/llama-3.1-8b-instant',
+  // model:'groq/llama-3.1-8b-instant',
+  model: 'google/gemini-2.0-flash',
   tools: {
     'get-exchange-rate': exchangeTool,
   },
