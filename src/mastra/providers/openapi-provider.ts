@@ -8,7 +8,6 @@ const openai = new OpenAI({
   apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY,
 });
  //openai/gpt-4o-mini last used
- //openai/gpt-3.5-turbo'
 //  openai/gpt-oss-20b'
 //  'google/gemini-2.0-flash
 console.log(process.env.GOOGLE_GENERATIVE_AI_API_KEY)
